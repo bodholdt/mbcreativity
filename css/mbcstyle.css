@@ -1,0 +1,165 @@
+
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+h2 {
+  font-family: helvetica;
+  font-size: 200%;
+  font-weight: 200;
+  color: #008080;
+  text-align: center;
+  text-decoration: underline;
+}
+p {
+  font-family: helvetica;
+  color: #2c2c2c;
+  font-size: 140%;
+  line-height: 180%;
+  text-align: justify;
+  font-weight: 300;
+}
+img {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+}
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url(https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/33058884_605018399854379_1771028957051748352_n.png?_nc_cat=0&oh=1769eb07af07f1f168c06ed885aa0084&oe=5B9329EF) no-repeat 50% 50%;
+}
+.mbclogo {
+  text-align: center;
+  padding: 5%;
+}
+/*-- start nav --*/
+
+nav {
+  float: left;
+  padding:1% 1% 0% 0%;
+  height: 50px;
+}
+nav ul {
+  list-style: none;
+  float: left;
+}
+nav ul li {
+  font-family: helvetica;
+  font-size: 120%;
+}
+nav ul li a {
+  color: #008080;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+nav ul, nav:active ul {
+  display: none;
+  padding: 8px 0;
+  left: 35px;
+  top: 60px;
+  width: 20%;
+  z-index: 1000;
+}
+nav li {
+  width: 100%;
+  padding: 8px 0 10px 7px;
+  margin: 0;
+}
+nav:hover ul {
+  display: block;
+  position: absolute;
+}
+#menu-icon {
+  width: 30px;
+  height: 26px;
+  background: url(https://use.fontawesome.com/releases/v5.0.13/svgs/solid/bars.svg) center;
+  display: inline-block;
+  margin: 40px 0 0 40px;
+}
+/*--end nav--*/
+.left-col {
+  width: 60%;
+  float: left;
+  margin: 4% 0 4% 4%;
+}
+.sidebar {
+  width: 26%;
+  float: left;
+  margin: 4%;
+}
+.one-third-port {
+  width: 29,333333%;
+  padding: 2%;
+  float: left;
+  align-items: center;
+}
+.one-third-port img:hover {
+  opacity: .6;
+}
+.portvid {
+  text-align: center;
+  padding-top: 8px;
+}
+.porttext {
+  align-items: center;
+}
+.contact p {
+  text-align: center;
+  letter-spacing: 5px;
+}
+.sidebar p {
+  color: #800000;
+  align-items: center;
+}
+.contact a {
+  color: #800000;
+}
+.break {
+  display:
+}
+.clearfix {
+  clear: both;
+  height: 3%;
+}
+.parallax {
+  background: url(https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/33116231_605443436478542_705106666474962944_o.png?_nc_cat=0&oh=79885a19e1fb88000629c30085f5c906&oe=5B94D8D5) repeat fixed 100%;
+  opacity: .5;
+}
+.parallax-inner {
+  padding-top: 20%;
+}
+.social {
+  list-style-type: none;
+  text-align: center;
+}
+.social li {
+  display: inline;
+  list-style-type: none;
+}
+.social i {
+  font-size: 270%;
+  margin: 1% 5% 7% 4%;
+  color: #008080;
+}
+.social i:hover {
+  color: #800000;
+}
+footer.second {
+  background-color: #2c2c2c;
+}
+footer.second p {
+  color: #FFF;
+  text-align: center;
+  padding: 5%;
+}
